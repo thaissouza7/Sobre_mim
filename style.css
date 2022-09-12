@@ -210,11 +210,3 @@ a {
 .voltar:hover{
     box-shadow:  rgb(213, 208, 221) 0px 0px  8px  5px;
 }
-
-@media only screen and(max-device-width:900px){
-    .foto_hobbies{
-
-        display: flex;
-        flex-direction: column;
-    }
-}
