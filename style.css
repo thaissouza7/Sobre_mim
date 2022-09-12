@@ -1,0 +1,220 @@
+* {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: black;
+    
+}
+
+
+.container_inicio{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    margin-bottom: 21px;
+   
+    
+}
+
+.pagina_inicial {
+    
+    backdrop-filter: blur(3px);
+    background-size: contain;
+    width: 100%;
+  min-height: 100vh;
+  
+}
+
+.container_foto_de_perfil {
+     margin-right: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items: center; 
+
+
+
+}
+.foto_de_perfil{
+    min-width: 350px;
+    max-height: 350px;
+    border-radius: 50%;
+    box-shadow:  rgb(241, 86, 145) 0px 0px  100px  10px;
+    
+    
+}
+
+
+.container_meu_nome {
+    width: 350px;
+   font-size: 24px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+
+}
+
+.meu_nome{
+    margin: 0px;
+    
+}
+
+.subtitulo{
+    font-size: 18px;
+    margin: 3px;
+ 
+}
+
+.item_link_inicio {
+    width: 350px;
+    height: 35px;
+    border:0 ;
+    border: solid 3px white;
+    color: rgb(255, 255, 255);
+    font-size: 26px ;
+    border-radius: 4px;
+    text-align: center;
+    margin: 17px;
+
+}
+
+.item_link_inicio:hover{
+    
+    box-shadow:  rgb(213, 208, 221) 0px 0px  8px  5px;
+}
+
+a {
+    text-align: center;
+    color: white;
+}
+
+.frase {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    font-size: 26px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 21px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(243, 204, 219, 0.849);
+    box-shadow:  rgb(241, 86, 145) 0px 0px  50px  10px;
+    
+}
+
+.container_sobre_mim {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(191, 195, 236, 0.795);
+    box-shadow:  blue 0px 0px  50px  10px;
+    border-radius: 20px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.texto_sobre_mim{
+    color: black;
+    width: 850px;
+    padding: 10px;
+    height: auto;
+    font-size: 24px;
+    border-radius: 20px;
+
+}
+
+.container_hobbies {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(243, 204, 219, 0.849);
+    box-shadow:  rgb(241, 86, 145) 0px 0px  50px  10px;
+    border-radius: 20px;
+    margin: 21px 0 0 0;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.foto_hobbies img{
+    max-width: 500px;
+    max-height: 450px;
+    border-radius: 20px;
+    margin: 0 20px 0 10px;
+}
+.texto_hobbies{
+    color: black;
+    font-size: 26px;
+    max-width: 600px;
+    height: auto;
+}
+
+.pagina_contatos {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.meu_contato{
+    width: 350px;
+    height: 35px;
+    border:0 ;
+    border: solid 3px white;
+    padding: 10px;
+    font-size: 26px ;
+    border-radius: 4px;
+    text-align: center;
+    margin: 17px;
+}
+.meu_contato:hover{
+
+    box-shadow:  rgb(213, 208, 221) 0px 0px  8px  5px;
+    
+}
+.voltar{
+    width: 70px;
+    height: 60px;
+    font-size: 15px;
+    border: solid white;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.voltar:hover{
+    box-shadow:  rgb(213, 208, 221) 0px 0px  8px  5px;
+}
+
+@media only screen and(max-device-width:900px){
+    .foto_hobbies{
+
+        display: flex;
+        flex-direction: column;
+    }
+}
